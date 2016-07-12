@@ -1,4 +1,4 @@
-update=17/06/2016 10:38:47
+update=Fr 01 Jul 2016 21:29:39 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -22,6 +22,9 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=
@@ -55,10 +58,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=E:/Code/Kicad/Mylib/Sch/rfProj
-[cvpcb]
-version=1
-NetIExt=net
+LibName30=rfProj
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -69,3 +69,4 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+ERC_TestSimilarLabels=1
